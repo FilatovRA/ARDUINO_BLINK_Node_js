@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Событие onclick</title>
+  <script>
+   function turnON() {
+    var newwin = window.open("http://192.168.1.46:3001/turnON");
+
+   };
+    function turnOFF() {
+    var newwin = window.open("http://192.168.1.46:3001/turnOFF");
+   
+   }
+  </script>
+ </head> 
+ <body>
+  <form action="">
+   <p><input type="button" value="Включить" onclick="turnON()"></p>
+  </form>
+  <form action="">
+   
+   <p><input type="button" value="Выключить" onclick="turnOFF()"></p>
+  </form>
+ </body>
+</html>
